@@ -8,7 +8,11 @@ import javax.xml.bind.Unmarshaller;
 
 import Model.Rss;
 
-
+/**
+ * Control class of the RSSReader
+ * @author Sarit Suriyasangpetch 5510546191
+ *
+ */
 public class RssControl {
 	public URL url ;
 	public Unmarshaller unmarshaller;

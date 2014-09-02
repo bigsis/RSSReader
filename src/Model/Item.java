@@ -1,5 +1,9 @@
 package Model;
-
+/**
+ * item model class of the RSSReader
+ * @author Sarit Suriyasangpetch 5510546191
+ *
+ */
 public class Item {
 	private String title;
 	private String description;

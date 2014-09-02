@@ -1,7 +1,11 @@
 package Model;
 import java.util.List;
 
-
+/**
+ * model channel of RSSReader
+ * @author Sarit Suriyasangpetch 5510546191
+ *
+ */
 public class Channel {
 	private String title;
 	private String link;
@@ -9,7 +13,7 @@ public class Channel {
 	private String language;
 	private String lbd;
 	private String copryRight;
-	private Image img;
+	
 	public String getTitle() {
 		return title;
 	}
@@ -45,12 +49,6 @@ public class Channel {
 	}
 	public void setCopryRight(String copryRight) {
 		this.copryRight = copryRight;
-	}
-	public Image getImg() {
-		return img;
-	}
-	public void setImg(Image img) {
-		this.img = img;
 	}
 	public String getTtl() {
 		return ttl;

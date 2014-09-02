@@ -6,7 +6,11 @@ import javax.xml.bind.JAXBException;
 
 import Controller.RssControl;
 import Model.Rss;
-
+/**
+ * Main class to run the program
+ * @author Sarit Suriyasangpetch 5510546191
+ *
+ */
 public class Main {
 	public static RssControl rss;
 	public static RssReaderView rrv;
